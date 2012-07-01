@@ -6,6 +6,9 @@
  * @since _s 1.0
  */
 
+ 
+ include_once("inc/post-types/post-type-artwork.php");
+ include_once("inc/post-types/post-type-background.php");
 /**
  * Set the content width based on the theme's design and stylesheet.
  *

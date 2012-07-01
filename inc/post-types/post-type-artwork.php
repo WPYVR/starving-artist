@@ -29,14 +29,14 @@ function team4_post_type_artworks() {
 //                    'custom-fields',
                 ))
             );
-/*
-    register_taxonomy('regions', 'artwork', 
+
+    register_taxonomy('genre', 'artwork', 
         array('hierarchical' => true, 
-                    'label' => __('Project Regions'), 
-                    'singular_name' => 'region',
+                    'label' => __('Art Genre'), 
+                    'singular_name' => 'genre',
                     'rewrite' => false,
             ));
-
+/*
     register_taxonomy('services', 'artwork', 
         array('hierarchical' => true, 
                     'label' => __('Project Service Types'), 

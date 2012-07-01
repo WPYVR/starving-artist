@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-		<div id="primary" class="site-content">
+		<div id="primary" class="site-content grid_8">
 			<div id="content" role="main">
             
 			<?php if ( have_posts() ) : ?>
