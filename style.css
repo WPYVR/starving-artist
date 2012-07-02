@@ -487,4 +487,28 @@ P.comment-form-comment LABEL
 TEXTAREA#comment
 {
 }
-/*main*/
+/*main
+artwork*/
+BODY
+{
+	background-color: #E6E3E3;
+}
+DIV.artwork, #secondary
+{
+	padding: 20px 10px;
+}
+DIV.artwork H1
+{
+	font-size: 24px;
+	line-height: 48px;
+}
+DIV.nav-previous, DIV.nav-next
+{
+	padding-right: 27px;
+	display: inline;
+}
+H1.entry-title A
+{
+	font-size: 28px;
+	color: #000000;
+}
