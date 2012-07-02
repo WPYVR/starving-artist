@@ -5,10 +5,15 @@
  * @package _s
  * @since _s 1.0
  */
-
  
  include_once("inc/post-types/post-type-artwork.php");
- include_once("inc/post-types/post-type-background.php");
+ //include_once("inc/post-types/post-type-background.php");
+ 
+ add_theme_support('post-thumbnails', array('post', 'page', 'artwork', 'background'));
+ add_image_size('slideshow', 960, 500, true);
+ 
+ 
+ 
 /**
  * Set the content width based on the theme's design and stylesheet.
  *

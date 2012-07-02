@@ -42,6 +42,7 @@ HTML, BODY, DIV, SPAN, APPLET, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQ
 	border: 0;
 	margin: 0;
 	vertical-align: baseline;
+	font-family: Candara;
 }
 BODY
 {
@@ -463,9 +464,27 @@ DIV.site-info
 }
 BODY.home
 {
-	background: url(references/Vincent_Willem_van_Gogh_044.jpg) fixed center center;
+	/*[disabled]background:url(references/Vincent_Willem_van_Gogh_044.jpg) fixed center center;*/
 }
 DIV#primary
 {
 	/*[disabled]background:#525252;*/
 }
+/*Comments*/
+DIV#comments
+{
+}
+DIV#respond
+{
+}
+P.comment-form-comment
+{
+}
+P.comment-form-comment LABEL
+{
+	display: block;
+}
+TEXTAREA#comment
+{
+}
+/*main*/

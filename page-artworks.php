@@ -1,7 +1,8 @@
 <?php
 /**
  * The template for displaying all pages.
-* Template Name: Full Width Page
+ * 
+ * Template Name: Gallery Page
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -14,7 +15,11 @@
 
 get_header(); ?>
 
-		<div id="primary" class="site-content grid_12">
+<?php
+    query_posts('post_type=artwork');
+?>
+
+		<div id="primary" class="site-content grid_8">
 			<div id="content" role="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>
@@ -28,4 +33,5 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- #primary .site-content -->
 
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
